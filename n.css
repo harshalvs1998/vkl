@@ -248,7 +248,7 @@ body {
 }
 
 .container4 {
-    position: absolute;
+    position: relative;
     background-color: #F0F8FF;
     padding: 2rem;
     overflow: scroll;
