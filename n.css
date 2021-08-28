@@ -252,6 +252,7 @@ body {
     background-color: #F0F8FF;
     padding: 2rem;
     overflow: scroll;
+    height:auto;
 }
 
 .oth1 {
