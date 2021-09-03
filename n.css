@@ -28,12 +28,21 @@ body {
     text-align: center;
 }
 
-@media(max-width:768 px) {
+@media(max-width:768px) {
     .he1 {
         font-size: medium;
         margin: 0%;
         padding: 0%;
-        color: black !important;
+        color: rgb(211, 118, 52);
+    }
+}
+
+@media(max-width:320px) {
+    .he1 {
+        font-size: small;
+        margin: 0%;
+        padding: 0%;
+        color: rgb(211, 118, 52);
     }
 }
 
@@ -46,7 +55,14 @@ body {
     text-align: center;
 }
 
-@media(max-width:768 px) {
+@media(max-width:768px) {
+    .he2 {
+        font-weight: normal;
+        font-size: small;
+    }
+}
+
+@media(max-width:320px) {
     .he2 {
         font-weight: normal;
         font-size: small;
@@ -57,18 +73,50 @@ body {
     height: 70vh;
 }
 
+@media(max-width:320px) {
+    .heaaddiv {
+        height: 28vh;
+    }
+}
+
+@media(max-width:425px) {
+    .heaaddiv {
+        height: 43vh;
+    }
+}
+
 .video-container {
     z-index: -100;
     width: 100%;
-    height: 75%;
+    height: 70%;
     overflow: hidden;
     position: absolute;
-    top: 0;
     left: 0;
+}
+
+@media(max-width:320px) {
+    .video-container {
+        width: 100%;
+        height: 80%;
+    }
+}
+
+#btnm1 {
+    text-align: center;
+    justify-content: center;
 }
 
 #video-bg {
     width: 100%;
+}
+
+@media(max-width:320px) {
+    #btnm {
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        font-size: small;
+    }
 }
 
 .container1 {
@@ -76,12 +124,32 @@ body {
     justify-content: center;
     text-align: center;
     display: inline-block;
-    width: 100%;
-    position: relative;
+    width: 100% !important;
+}
+
+@media(max-width:320px) {
+    .container1 {
+        height: 100vh;
+    }
 }
 
 .container11 {
     height: 68vh;
+    display: inline-block;
+    padding: 2rem;
+}
+
+@media(max-width:320px) {
+    .container11 {
+        height: 100vh;
+    }
+}
+
+@media(max-width:320px) {
+    .aboch {
+        font-size: small;
+        font-weight: normal;
+    }
 }
 
 .aboi {}
@@ -106,6 +174,10 @@ body {
     float: left;
     width: 40%;
     margin-top: 6%;
+}
+
+.aboi {
+    height: 40rem;
 }
 
 .aboch {
@@ -151,8 +223,48 @@ body {
 
 .main {
     height: 100vh;
-    position: absolute;
 }
+
+@media(max-width:374px) and (min-width:320px) {
+    .main {
+        height: 420vh;
+        margin: 2px;
+        padding: 2px;
+    }
+}
+
+@media(max-width:425px) and (min-width:375px) {
+    .main {
+        height: 510vh;
+        margin: 2px;
+        padding: 2px;
+    }
+}
+
+@media(max-width:1000px) and (min-width:700px) {
+    .main {
+        height: 250vh;
+        margin: 2px;
+        padding: 2px;
+    }
+}
+
+
+/*@media(max-width:1429px) and (min-width:1000px) {
+    .main {
+        height: 250vh;
+        margin: 2px;
+        padding: 2px;
+    }
+}
+
+@media(max-width:2000px) and (min-width:1430px) {
+    .main {
+        height: 180vh;
+        margin: 2px;
+        padding: 2px;
+    }
+}*/
 
 .cards {
     display: grid;
@@ -252,7 +364,6 @@ body {
     background-color: #F0F8FF;
     padding: 2rem;
     overflow: scroll;
-    height:auto;
 }
 
 .oth1 {
@@ -279,16 +390,51 @@ body {
     padding: 0.5rem;
     margin: 0.5rem;
     border: 1px solid transparent;
-    /* background-color: #b1cce4; use on haver dont forget*/
+    background-color: #b1cce4;
     border-radius: 19rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
+}
+
+@media(max-width:425px) {
+    .otih {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 30% !important;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        border: 1px solid transparent;
+        background-color: transparent;
+        border-radius: 19rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media(max-width:425px) {
+    .otih h3 {
+        font-size: small;
+        font-weight: normal;
+    }
 }
 
 .container5 {
     padding: 2rem;
     height: 25vh;
     background-color: rgb(209, 209, 38);
+}
+
+@media(max-width:500px) and (min-width:320px) {
+    .container5 {
+        height: 50vh;
+    }
+}
+
+@media(max-width:2000px) and (min-width:768px) {
+    .container5 {
+        height: 50vh;
+    }
 }
 
 .con5h2 {
